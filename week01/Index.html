@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <meta name="description" content="WDD 131 - Dynamic Web Fundamentals by Karenn Teran. Home page including HTML, CSS, Javascript and responsive design.">
+    <meta name="author" content="Karenn Teran">
+    <title>WDD 131 - Dynamic Web Fundamentals - Karenn Teran</title>
+    <link rel="stylesheet" href="styles/base.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>WDD 131 - Dynamic Web Fundamentals - <span class="highlight">Karenn M. Teran Arvelo</span></h1>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="https://linkedin.com" target="_blank">LinkedIn</a></li>
+                <li><a href="https://byui.instructure.com/" target="_blank">I-Learn</a></li>
+                <li><a href="https://www.churchofjesuschrist.org/study/scriptures/bofm/1-ne/3?lang=eng&id=p7#p7" target="_blank">Scripture</a></li>
+                <li><a href="#" target="_blank">Final Project</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="main-content">
+        <!-- Left column -->
+        <div class="left-column">
+            <section class="card">
+                <h2>About Me</h2>
+                <div class="card-content">
+                    <div class="personal-info">
+                        <p>My Name is Karenn Teran. I was born in Venezuela, Im working as a spanish interpreter in Miami Florida. I love to travel, I love and enjoy to learn new things. Im so excited an motivated, I really enjoy coding, I like FrontEnd and also BackEnd I woudl like to learn more things, Im passionate about Database even though I dont have much knowledge about that. but Im open to learn everyday more and more.</p>
+                        <img src="images/Profile.jpg" alt="Karenn portrait" class="profile-photo">
+                    </div>
+                
+                    <div class="country-info">
+                        <h3>Venezuela</h3>
+                        <div class="flag-container">
+                            <img src="images/venezuela.jpeg" alt="Venezuela's flag" class="flag">
+                            <p>Venezuela is located in the northern part of South America and the Caribbean, it has a territorial extension o 916,445 km². The continental territorry is bordered to the norh by the Caribbean Sea and the Atlantic Ocean, to the west by Colombia, to the south of Brazil and to the east by Guyana.Venezuela had the worlds{s largest oil reserves, right now is facing one of the hardest dictatorial regimen and facing economic crisis. A lot of Venezuelan have had to fled the country because of this reason. But besides the inconveniences that Venezuela is facing right now, Venezuela is beautiful it has the highest waterfall in the world called el Salto Angel.</p>
+                        </div>
+                        <img src="images/saltoangel.jpeg" alt="Salto Angel" class="landmark-photo">
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <!-- Right column -->
+        <div class="right-column">
+            <section class="card">
+                <h2>Web Dev Resources</h2>
+                <ul class="resource-links">
+                    <li><a href="https://dev.to/" target="_blank">Dev.to Community</a></li>
+                    <li><a href="https://www.smashingmagazine.com/" target="_blank">Smashing Magazine</a></li>
+                    <li><a href="https://css-tricks.com/" target="_blank">CSS Tricks</a></li>
+                    <li><a href="https://www.w3schools.com/" target="_blank">W3 Schools</a></li>
+                    <li><a href="https://www.udemy.com/" target="_blank">Udemy</a></li>
+                    <li><a href="https://picsum.photos/" target="_blank">Lorem Picsum Image Placeholder</a></li>
+                </ul>
+            </section>
+        </div>
+    </main>
+
+    <footer>
+        <p>©<span id="currentyear"></span> Karenn Teran 🌎 Miami-Florida</p>
+        <p id="lastModified">Last Modified: <span></span></p>
+    </footer>
+
+    <script src="scripts/getdates.js"></script>
+
+</body>
+</html>
