@@ -1,0 +1,102 @@
+
+    @media (min-width: 1000px){
+        main {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr; /*two columns of equal width*/
+            gap: 10px;
+            
+            h1 {
+                grid-column: span 3; /* Hace que el h1 ocupe las tres columnas */
+                text-align: center; /* Centra el texto dentro del h1 */
+            }
+        }
+
+        } 
+
+
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+header{
+    display: flex;
+    justify-content: space-between; /* Alinea el título a la izquierda y el menú a la derecha */
+    align-items: center; /* Alinea verticalmente el título y el menú */
+     /* Alinea verticalmente el título y el menú */
+    padding: 30px; /* Espaciado alrededor del header */
+    margin-bottom: 20px;
+    background-color: darkblue;
+    text-align: left;
+}
+
+
+
+
+.title {
+    color: whitesmoke;
+    display: flex;
+    justify-content: flex-start;
+}
+
+
+a {
+    color: whitesmoke;
+}
+
+
+/* Centrar el h1 */
+h1 {
+    grid-column: span 2; /* Hace que el h1 ocupe las dos columnas */
+    color: whitesmoke;
+    text-align: center; /* Centra el texto horizontalmente */
+    margin-bottom: 20px; /* Añade espacio debajo del título */
+}
+
+.nav-links {
+    display: flex;
+    list-style-type: none; /* Elimina los puntos */
+    padding: 0; /* Elimina cualquier espacio adicional */
+    margin: 0; /* Elimina cualquier margen adicional */gap: 20px; /*space between each item*/
+
+}
+
+button {
+    display: none;
+}
+
+
+img {
+    
+    margin: auto;
+}
+
+figure {
+    /*background-color:#fff;*/
+    :hover {box-shadow: 0 0 50px whitesmoke;}
+}
+img { width: 100%; height: auto; margin: .5rem;}
+figcaption {font-size: smaller;}
+/* hover effect */
+
+
+main {
+    background-color: darkblue;
+}
+
+footer {
+    text-align: center;
+    background-color: darkblue;
+    color: whitesmoke;
+}
+
+
+/*main: two equal-siced columns*/
+@media (max-width: 999px){
+    main {
+        display: grid;
+        grid-template-columns: 1fr 1fr; /*two columns of equal width*/
+    } 
+
+    
+}
