@@ -58,7 +58,6 @@ h1 {
     list-style-type: none; /* Elimina los puntos */
     padding: 0; /* Elimina cualquier espacio adicional */
     margin: 0; /* Elimina cualquier margen adicional */gap: 20px; /*space between each item*/
-
 }
 
 button {
@@ -69,6 +68,11 @@ button {
 img {
     
     margin: auto;
+}
+
+figcaption {
+    color: whitesmoke;
+    text-align: center;
 }
 
 figure {
@@ -97,6 +101,6 @@ footer {
         display: grid;
         grid-template-columns: 1fr 1fr; /*two columns of equal width*/
     } 
-
     
+
 }
