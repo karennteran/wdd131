@@ -34,6 +34,10 @@ img {
     margin: auto;
 }
 
+figcaption {
+    color: whitesmoke;
+    text-align: center;
+}
 
 
 figure {
@@ -120,14 +124,9 @@ nav {
       flex-direction: column;
       align-items: center;
       text-align: center;
-
-
     }
 
-    figcaption {
-        color: whitesmoke;
-        text-align: center;
-    }
+    
   
     .nav-links.active {
       display: block; /* Mostrar el menú cuando está activo */
