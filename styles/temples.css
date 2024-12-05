@@ -16,7 +16,12 @@ header{
 
 
 a {
+  text-decoration: none;
     color: whitesmoke;
+}
+
+a:hover {
+  color: rgb(0, 182, 214);
 }
 
 
@@ -161,4 +166,12 @@ nav {
         padding: 10px 20px;
       }
 
+      a {
+        text-decoration: none;
+          color: whitesmoke;
+      }
+      
+      a:hover {
+        color: rgb(0, 182, 214);
+      }
 }
