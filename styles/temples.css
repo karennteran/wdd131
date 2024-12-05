@@ -126,6 +126,10 @@ nav {
       text-align: center;
     }
 
+    figcaption {
+        color: whitesmoke;
+        text-align: center;
+    }
     
   
     .nav-links.active {
