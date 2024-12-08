@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #9b111e;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.content-container {
+    display: flex;
+    flex-direction: column;  /* Cambiamos el flujo a columna */
+    align-items: center;
+    padding: 20px;
+}
+
+.image-container img {
+    width: 100%;  /* La imagen ocupa todo el ancho */
+}
+
+.data-container,
+.weather-container {
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+}
+
+footer {
+    background-color: #e1e1e1;
+    text-align: center;
+    padding: 10px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    margin: 0;
+}
