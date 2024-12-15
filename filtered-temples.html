@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Temples">
+    <meta name="author" content="Karenn Teran">
+    <title>WDD 131 - Picture album of Temples</title>
+    <link rel="stylesheet" href="styles/filtered-temples.css" media="screen and (max-width: 767px)">
+    <link rel="stylesheet" href="styles/filtered-temples-large.css" media="screen and (min-width: 768px)">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
+    </style>
+</head>
+
+<header>
+    <h1 class="title">Temple album</h1>
+    <nav>
+        <button class="hamburger" id="hamburger">
+            &#9776; <!-- Icono inicial: tres rayas hamburguesa -->
+        </button>
+        <button class="close" id="close">&times;</button> <!-- X -->
+        <ul class="nav-links">
+            <li><a href="#" target="_blank">Home</a></li>
+            <li><a href="#" target="_blank">old</a></li>
+            <li><a href="#" target="_blank">New</a></li>
+            <li><a href="#" target="_blank">Large</a></li>
+            <li><a href="#" target="_blank">Small</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+    <!-- Heading -->
+    <h1>Home</h1>
+    <div id="templesContainer"></div>
+</main>
+
+
+
+<footer>
+    <p>©<span id="currentyear"></span> Karenn Teran 🌎 Miami-Florida</p>
+    <p id="lastModified">Last Modified: <span></span></p>
+</footer>
+
+<script src="scripts/filtered-temples-getdates.js"></script>
+<script src="scripts/filtered-temples.js"></script>

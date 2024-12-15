@@ -1,0 +1,177 @@
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+header{
+    background-color: darkblue;
+    text-align: left;
+}
+
+.title {
+    color: whitesmoke;
+    display: flex;
+    justify-content: flex-start;
+}
+
+
+a {
+  text-decoration: none;
+    color: whitesmoke;
+}
+
+a:hover {
+  color: rgb(0, 182, 214);
+}
+
+
+/* Centrar el h1 */
+h1 {
+    color: whitesmoke;
+    text-align: center; /* Centra el texto horizontalmente */
+    margin-bottom: 20px; /* Añade espacio debajo del título */
+}
+
+
+
+img {
+    
+    margin: auto;
+}
+
+figcaption {
+    color: whitesmoke;
+    text-align: center;
+}
+
+
+figure {
+    /*background-color:#fff;*/
+    :hover {box-shadow: 0 0 50px whitesmoke;}
+}
+
+img { width: 100%; height: auto; margin: .5rem;}
+figcaption {font-size: smaller;}
+/* hover effect */
+
+main {
+    background-color: darkblue;
+}
+
+footer {
+    background-color: darkblue;
+    color: whitesmoke;
+    text-align: center;
+}
+
+/*----------------------------------------------------------------------------------------------------------*/
+
+
+
+/* Estilos para el contenedor de navegación */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #000080;
+    padding: 10px 20px;
+  }
+  
+  .nav-links {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nav-links li {
+    margin-left: 20px;
+  }
+  
+  .nav-links li a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+  }
+  
+  /* Estilos para los botones de la hamburguesa y la X */
+  .hamburger, .close {
+    display: none;
+    background: none;
+    border: none;
+    color: white;
+    font-size: 30px;
+    cursor: pointer;
+  }
+  
+  .hamburger {
+    display: inline-block; /* Mostrar las tres rayas solo en móvil*/
+}
+  
+  
+.close {
+    display: none; /* La X está oculta por defecto*/
+    }
+  
+  
+  /* Menú en dispositivos pequeños */
+  @media (max-width: 767px) {
+    .nav-links {
+      display: none; /* Menú oculto por defecto */
+      width: 100%;
+      position: absolute;
+      top: 60px;
+      right: 0;
+      width: 150px;
+      transition: all 0.3s ease-in-out;
+      border-radius: 10px;
+      background-color: #363688;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+
+    figcaption {
+        color: whitesmoke;
+        text-align: center;
+    }
+    
+  
+    .nav-links.active {
+      display: block; /* Mostrar el menú cuando está activo */
+    }
+  
+    .nav-links li {
+      margin: 15px 0;
+    }
+  
+    .hamburger {
+      display: inline-block; /* Mostrar el icono hamburguesa */
+    }
+  
+    .close {
+      display: none; /* Ocultar la X por defecto */
+    }
+  
+    /* Mostrar la X cuando el menú está abierto */
+    .nav-links.active + .close {
+      display: inline-block;
+    }
+
+    header {
+        display: flex;
+        justify-content: space-between; /* Título a la izquierda, menú a la derecha */
+        align-items: center;
+        background-color: #000080;
+        padding: 10px 20px;
+      }
+
+      a {
+        text-decoration: none;
+          color: whitesmoke;
+      }
+      
+      a:hover {
+        color: rgb(0, 182, 214);
+      }
+}
