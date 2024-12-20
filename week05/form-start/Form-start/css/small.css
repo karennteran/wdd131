@@ -111,7 +111,7 @@ main {
 }
 
 .wf1 input:required{
-    border-right: solid 8px red;
+    border-right: solid 8px rgb(233, 12, 12);
 }
 .wf1 input:required:valid{
     border-right: solid 8px rgb(0, 255, 76);
