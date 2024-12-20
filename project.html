@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Financial Tips & Tools</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <div class="logo">Personal Budget Planner</div>
+    <nav>
+      <div class="hamburger" onclick="toggleMenu()">&#9776;</div>
+      <ul id="nav-links">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Budget Tracker</a></li>
+        <li><a href="#">Financial Tips</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="intro">
+    <h1>Financial Tips & Tools for Better Budgeting</h1>
+    <p>Improve your financial literacy with practical advice and tools to manage your money effectively.</p>
+  </section>
+
+  <section class="tips">
+    <div class="tip-card">
+      <h3>Save 10% of Your Income Monthly</h3>
+      <p>Start saving a fixed percentage of your income each month for a solid financial foundation.</p>
+      <button>Read More</button>
+    </div>
+    <div class="tip-card">
+      <h3>Track Your Spending</h3>
+      <p>Understand where your money goes by tracking all your expenses regularly.</p>
+      <button>Read More</button>
+    </div>
+    <div class="tip-card">
+      <h3>Build an Emergency Fund</h3>
+      <p>Set aside money for emergencies so you’re prepared for unexpected expenses.</p>
+      <button>Read More</button>
+    </div>
+  </section>
+
+  <section class="tools">
+    <h2>Set Your Savings Goal</h2>
+    <label for="goal">Total Goal ($):</label>
+    <input type="number" id="goal" placeholder="Enter your target amount">
+    <label for="current-savings">Current Savings ($):</label>
+    <input type="number" id="current-savings" placeholder="Enter current savings">
+    <label for="monthly-contribution">Monthly Contribution ($):</label>
+    <input type="number" id="monthly-contribution" placeholder="Enter monthly contribution">
+    <button onclick="calculateGoal()">Calculate</button>
+    <p id="result"></p>
+  </section>
+
+    <footer>
+        <p>©<span id="currentyear"></span> Karenn Teran 🌎 Miami-Florida</p>
+        <p id="lastModified">Last Modified: <span></span></p>
+    </footer>
+
+  <script src="scripts/project.js"></script>
+  <script src="scripts/getdates.js"></script>
+</body>
+</html>
