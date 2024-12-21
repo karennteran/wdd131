@@ -1,0 +1,41 @@
+img {
+    margin: 50px;
+    max-width: 100%;
+    height: auto;
+    
+}
+
+.containerlarge {
+    margin: 50px;
+    max-width: 600px;    /* Ancho del contenedor */
+    border: 2px solid #333; /* Borde para visualizar el contenedor */
+    text-align: center;
+    background-color: purple;
+    color: white;
+}
+
+.containermobile {
+    margin: 60px;
+    width: 300px;    /* Ancho del contenedor */
+    border: 2px solid #333; /* Borde para visualizar el contenedor */
+    text-align: center;
+    background-color: purple;
+    color: white;
+}
+
+h1 {
+    background-color: purple;
+    color: white;
+}
+
+.sitename {
+    text-align: center;
+    background-color: rgb(205, 210, 255);
+    color: purple;
+}
+
+footer {
+    background-color: purple;
+    color: white;
+    text-align: center;
+}
